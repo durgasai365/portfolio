@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+.home-sec{
+    width: 100vw;
+    height: 100VH;
+    display: flex;
+}
+.navigation{
+    width: 25vw;
+    height: 100vh;
+    background: #000;
+
+
+}
+.home-page{
+    width: 75vw;
+    background:	#181818;
+}
+.profile-sec{ 
+    text-align: center;
+    padding: 3rem;
+
+
+}
+.profile-img{
+width: 50%;
+border-radius: 50%;
+margin-bottom: 1.5rem;
+}
+.name{
+    font-size: 2.2rem;
+margin-bottom: 0.5rem;
+
+}
+ .nav-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .nav-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem;
+
+ }
+/* .nav-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    background: #000;
+    padding-bottom: 8rem;
+ }*/
+.nav-list{
+    list-style: none;
+    font-size: 1.2rem;
+} 
+.list{
+text-decoration: none;
+transition: 0.5s all;
+}
+.list:hover{
+text-decoration: underline cyan;
+text-underline-offset:0.7em ;
+}
+/* right side page */
+.home-page{
+    display: flex;
+ 
+}
+.pro-box1{
+    padding: 3rem;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+h1,h3{
+    padding-bottom: 1rem;
+}
+h1{
+    font-size: 2.7rem;
+}
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+
+}
+.web-dev,.web-devv{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.web-dev{
+}
+.about-me{
+    padding: 1.5rem 3.5rem;
+    background: #000;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    /* display: block; */
+    /* display: none; */
+    width: 20rem;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    transition: 0.3s all;
+}
+.about-me:hover{
+ box-shadow: 0 0 20px cyan,
+0 0 25px cyan,  0 0 50px cyan;  
+cursor: pointer;  
+}
+.button{
+    text-align: center;
+}
+
+.pro-box2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one-img{
+    width: 100%;
+
+}
+.nav-icon{
+    font-size: 100%;
+    color: 	#696969;
+    margin-right: 0.5rem;
+}
